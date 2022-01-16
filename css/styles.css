@@ -6,6 +6,13 @@
     color: rgb(84, 46, 189);
 }
 
+.press-img {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 30%;
+}
+
 @media screen and (min-width: 768px) {
     .rotate-md-img {
         transform: rotate(25deg);
@@ -13,6 +20,6 @@
         display:block;
         position: absolute;
         border:0;   
-        width: 100%;  
+        
      }
 }
