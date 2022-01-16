@@ -12,12 +12,18 @@
     height: auto;
   }
 
+.rotate-md-img {
+    height: auto;
+    width: 50%;
+}
+
 @media screen and (min-width: 768px) {
     .rotate-md-img {
         transform: rotate(25deg);
-        margin: 0;
+        margin-bottom: -70%;
         display: block;
-        position: absolute;
-        float: left;
-     }
+        position: relative;
+        width: 70%;
+        height: 90%;
+    }
 }
