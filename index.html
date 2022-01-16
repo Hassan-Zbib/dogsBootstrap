@@ -18,7 +18,7 @@
 
   <body>
     <!-- Nav Bar / Title -->
-    <section id="title" class="p-5 text-light text-center bg-purple">
+    <section id="title" class="p-5 pb-lg-0 text-light text-center bg-purple" >
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid">
@@ -35,7 +35,7 @@
           <div class="collapse navbar-collapse" id="navmenu">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a href="#press" class="nav-link">Contact</a>
+                <a href="#footer" class="nav-link">Contact</a>
               </li>
               <li class="nav-item">
                 <a href="#pricing" class="nav-link">Pricing</a>
@@ -49,8 +49,8 @@
       </nav>
       <!-- Title -->
       <div class="container-fluid">
-        <div class="d-md-flex">
-          <div>
+        <div class="row">
+          <div class="col-md">
             <h1 class="p-3">Meet dog next door.</h1>
             <button type="button" class="btn btn-dark btn-lg m-2">
               <i class="fab fa-apple fa-fw"></i>Download
@@ -59,8 +59,8 @@
               <i class="fab fa-google-play fa-fw"></i>Download
             </button>
           </div>
-          <div>
-            <img class="image-fluid w-50" src="images/app.png" />
+          <div class="col-md">
+            <img class="image-fluid w-50 rotate-md-img" src="images/app.png" alt="app-image" />
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@
 
     <section id="features ">
       <div class="container-fluid">
-        <div class="row text-center p-5 text-dark">
+        <div class="row text-center p-5 text-dark bg-light">
           <div class="col-md">
             <i class="fa fa-check-circle fa-3x icon-purple"></i>
             <h3>Feature1</h3>
@@ -103,12 +103,12 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <h2>Quote 1. Woof.</h2>
-              <img src="images/dog-img.jpg" class="rounded-circle image-fluid w-1" />
+              <img src="images/dog-img.jpg" class="rounded-circle image-fluid " alt="dog-image" />
               <em class="text-light" >Beirut, Lebanon</em>
             </div>
             <div class="carousel-item">
               <h2>Quote 2. Meow?</h2>
-              <img src="images/dog-img.jpg" class="rounded-circle image-fluid w-1" />
+              <img src="images/dog-img.jpg" class="rounded-circle image-fluid" alt="dog-image" />
               <em class="text-light" >Beirut, Lebanon</em>
             </div>
           </div>
@@ -128,8 +128,8 @@
     <!-- Press -->
 
     <section id="press" class="bg-purple">
-      <img src="images/mtv-logo.png" />
-      <img src="images/lbci-logo.png" />
+      <img src="images/mtv-logo.png" alt="mtv-logo"/>
+      <img src="images/lbci-logo.png" alt="lbci-logo" />
     </section>
 
     <!-- Pricing -->

@@ -5,3 +5,14 @@
 .icon-purple {
     color: rgb(84, 46, 189);
 }
+
+@media screen and (min-width: 768px) {
+    .rotate-md-img {
+        transform: rotate(25deg);
+        overflow:hidden;
+        position: relative;
+    }
+    #title {
+        position: relative;
+    }
+}
