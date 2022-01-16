@@ -9,12 +9,10 @@
 @media screen and (min-width: 768px) {
     .rotate-md-img {
         transform: rotate(25deg);
-    }
-    .image-md-container {
-        position: relative;
-        width: 100%;
-        height: 75%;
-        overflow: hidden;
-        }
-
+        margin: 0;
+        display:block;
+        position: absolute;
+        border:0;   
+        width: 100%;  
+     }
 }
