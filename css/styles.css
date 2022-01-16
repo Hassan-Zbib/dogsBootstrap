@@ -6,14 +6,18 @@
     color: rgb(84, 46, 189);
 }
 
+.quote-img {
+    display: inline-block;
+    max-width: 10%;
+    height: auto;
+  }
 
 @media screen and (min-width: 768px) {
     .rotate-md-img {
         transform: rotate(25deg);
         margin: 0;
-        display:block;
+        display: block;
         position: absolute;
-        border:0;   
-        
+        float: left;
      }
 }
