@@ -9,10 +9,12 @@
 @media screen and (min-width: 768px) {
     .rotate-md-img {
         transform: rotate(25deg);
-        overflow:hidden;
-        position: relative;
     }
-    #title {
+    .image-md-container {
         position: relative;
-    }
+        width: 100%;
+        height: 75%;
+        overflow: hidden;
+        }
+
 }
