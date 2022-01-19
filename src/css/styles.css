@@ -8,7 +8,7 @@
 
 .quote-img {
     display: inline-block;
-    max-width: 10%;
+    width: 10%;
     height: auto;
   }
 
@@ -24,6 +24,6 @@
         display: block;
         position: relative;
         width: 70%;
-        height: 90%;
+        height: auto;
     }
 }
